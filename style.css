@@ -1,0 +1,86 @@
+/* Color and Front */
+body {
+background-color: rgb(230 , 230 , 230);
+color:rgb(30, 30, 30);
+font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	    color: #ab2710;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-size: 70px;
+}
+
+h2 { 
+color: green;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+
+ }
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover{
+	color: blue;
+}
+
+
+/* Custom Design with class */
+
+.container {
+	width: 700;
+	margin: 40px auto;
+	text-align: center;
+}
+@media (max-width: 500px)
+	.container {
+		width : 400px
+	}
+
+	
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius: 4px;
+	margin: 20px 0px;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btm-blue {
+	background-color: #ab2710;
+	text-color: white;
+	padding: 15px 20Px;
+	border-radius: 4px;
+}
+.btm-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-line i {
+	front-size: 50px;
+	color: rgb(230, 230, 230);
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
